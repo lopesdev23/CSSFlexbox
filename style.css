@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    background: red;
+    /*align-items: flex-start; /*flex-end flex-start end e stretch*/
+    /*flex-flow: wrap;*/
+    /*align-content: flex-start;*/
+    /*flex-flow: wrap-reverse;*/
+
+    
+}
+/*
+.container div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.container .box-1{
+    order: 2;
+}
+.container .box-2{
+flex: 3;
+}
+.container .box-3{
+flex: 7;
+}
+.container .box-4{
+flex: 4;
+}*/
+/*
+.container div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.container .box-1{
+   flex-basis:20%;
+}
+.container .box-2{
+ flex-basis:20%;
+}
+.container .box-3{
+ width: 5%;
+}
+.container .box-4{
+ width: 5%;
+}
+*/
+.container div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.container .box-1{
+   flex-basis:20%;
+}
+.container .box-2{
+    /*flex-basis se comporta como width e heigth nas opcoes row ou column*/
+ flex-basis:33%;
+}
+.container .box-3{
+flex-basis:40%;
+}
+.container .box-4{
+ flex-basis:20%;
+}
+
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
